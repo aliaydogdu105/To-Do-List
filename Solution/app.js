@@ -27,6 +27,7 @@ function ToogleDeleteButton() {
 
 document.getElementById("btn").onclick = function () {
   let item = document.getElementById("txtItem").value;
+  txtItem.value = "";
 
   if (item === "") {
     alert("please write something");

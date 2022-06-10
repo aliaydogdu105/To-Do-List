@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: cursive;
 }
 
 .container {
@@ -16,10 +17,21 @@ h1 {
   margin-top: 5vh;
   text-shadow: 5px;
 }
+
 ul li.checked {
   background: #999;
   color: #333;
   text-decoration: line-through;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #999 !important;
+  color: black;
 }
 
 #deleteAll {
